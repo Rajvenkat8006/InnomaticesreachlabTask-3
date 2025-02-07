@@ -1,3 +1,6 @@
+//Electricity Bill Calculation with Peak Hours
+//Write a function calculateElectricityBill(units, timeOfDay) that returns the total bill.
+
 function calculateElectricityBill(units, timeOfDay) {
     let rate;
     if (units < 100) {
@@ -13,7 +16,7 @@ function calculateElectricityBill(units, timeOfDay) {
     
     return (units * rate).toFixed(2);
 }
-console.log(calculateElectricityBill(50, 10)); 
-console.log(calculateElectricityBill(150, 21)); 
-console.log(calculateElectricityBill(350, 7)); 
+//console.log(calculateElectricityBill(50, 10)); 
+//console.log(calculateElectricityBill(150, 21)); 
+//console.log(calculateElectricityBill(350, 7)); 
 console.log(calculateElectricityBill(250, 14)); 
