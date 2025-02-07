@@ -1,3 +1,6 @@
+//Online Shopping Discount & Free Shipping.
+//Write a function calculateFinalAmount(orderAmount) that returns the final payable amount after discount and applicable shipping charges.
+
 function calculateFinalAmount(orderAmount){
   let discount = 0;
   let shipping = 0;
