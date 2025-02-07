@@ -1,3 +1,6 @@
+//Movie Ticket Pricing with Time and Age Discount
+//Write a function calculateTicketPrice(age, showTime) that returns the final ticket price.
+
 function calculateTicketPrice(age, showTime) {
     const standardPrice = 12;
     let discount = 0;
