@@ -2,7 +2,7 @@
 # JavaScript Problems
 
 ## Features
-## variables
+## Variables
 
 1. Variables
     Variables store data that can be used and manipulated in a program. In JavaScript, you can declare variables using var, let, or const.
