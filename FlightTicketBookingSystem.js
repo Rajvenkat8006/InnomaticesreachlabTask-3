@@ -1,3 +1,6 @@
+////Flight Ticket Booking System
+//Write a function calculateFlightFare(classType, luggageWeight, isStudent, isSenior) that returns the final price.
+
 function calculateFlightFare(classType, luggageWeight, isStudent, isSenior) {
     let baseFare = 300;
     let additionalCharge = 0;
