@@ -1,3 +1,6 @@
+//Student Grading System with Extra Credit.
+//Write a function calculateGrade(marks, attendance) that returns the student's final grade.
+
 function calgrade(marks,attendance){
     if(attendance>90){
         marks+=5;
