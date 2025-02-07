@@ -1,3 +1,5 @@
+//E-commerce Coupon Redemption
+//Write a function applyCoupon(orderAmount, couponCode) that calculates the final price.
 function applyCoupon(orderAmount, couponCode) {
     const discount = 500;
     const shipping = 200;
