@@ -1,7 +1,5 @@
-//Flight Ticket Booking System
-//Write a function calculateFlightFare(classType, luggageWeight, isStudent, isSenior) that returns the final price.
-
-
+//Fitness Membership Plan
+//Write a function choosePlan(planType, wantsTrainer, wantsDietPlan) that suggests the best membership.
 function choosePlan(planType, wantsTrainer, wantsDietPlan) {
     if (planType === "VIP" || (wantsTrainer && wantsDietPlan)) {
         return "VIP Plan: $80/month (Gym + Trainer + Diet Plan)";
