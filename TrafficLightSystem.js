@@ -1,3 +1,6 @@
+// Smart Traffic Light System.
+//Write a function trafficLightControl(density) that returns how long the green signal will stay on.
+
 function trafficLightControl(density){
     
     if(density === "HeavyTraffic"){
