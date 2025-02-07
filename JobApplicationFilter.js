@@ -1,3 +1,6 @@
+//Job Application Filter
+//Write a function isEligibleForJob(age, experience, qualification) that returns whether the applicant is eligible.
+
 function isEligibleForJob(age, experience, qualification) {
     if (age >= 21 && age <= 55 && experience >= 2 && qualification === "Bachelor's Degree") {
         return "Eligible for the job";
